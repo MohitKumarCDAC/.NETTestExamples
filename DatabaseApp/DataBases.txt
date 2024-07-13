@@ -1,0 +1,35 @@
+
+//Employees Table
+
+
+CREATE TABLE [dbo].[Employees] (
+    [EmpNo]  INT             NOT NULL,
+    [Name]   VARCHAR (50)    NOT NULL,
+    [Basic]  DECIMAL (18, 2) NOT NULL,
+    [DeptNo] INT             NOT NULL,
+    PRIMARY KEY CLUSTERED ([EmpNo] ASC),
+    CONSTRAINT [FK_Employees_Departments] FOREIGN KEY ([DeptNo]) REFERENCES [dbo].[Departments] ([DeptNo])
+);
+
+
+//Departments Table
+
+
+CREATE TABLE [dbo].[Departments] (
+    [DeptNo]   INT          NOT NULL,
+    [DeptName] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([DeptNo] ASC)
+);
+
+
+//Store PRocedure to Store Data
+
+
+CREATE PROCEDURE [dbo].InsertEmployee
+	@EmpNo int,
+	@Name varchar(50),
+	@Basic decimal(18,2),
+	@DeptNo int
+AS
+	insert into Employees values(@EmpNo ,@Name,@Basic,@DeptNo)
+RETURN 0
