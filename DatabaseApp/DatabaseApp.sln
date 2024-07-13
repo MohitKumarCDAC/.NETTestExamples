@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseApp", "DatabaseApp.csproj", "{FE1A910A-A6AD-4A0E-82ED-89DBB38851A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseCode", "E:\Mohit\MS.NET\DatabaseCode-20240713T161302Z-001\DatabaseCode\DatabaseCode.csproj", "{04AB7B36-DC45-4514-87DE-BDE2C614B8F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1A910A-A6AD-4A0E-82ED-89DBB38851A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1A910A-A6AD-4A0E-82ED-89DBB38851A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1A910A-A6AD-4A0E-82ED-89DBB38851A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1A910A-A6AD-4A0E-82ED-89DBB38851A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AB7B36-DC45-4514-87DE-BDE2C614B8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AB7B36-DC45-4514-87DE-BDE2C614B8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AB7B36-DC45-4514-87DE-BDE2C614B8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AB7B36-DC45-4514-87DE-BDE2C614B8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91339DEA-3F16-4E88-8697-A6B274DE23A2}
+	EndGlobalSection
+EndGlobal
